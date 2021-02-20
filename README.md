@@ -1,6 +1,6 @@
 # MODX Gitify Preset
 
-1. add files and folder in your MODX public root
+1. add files and folder to your MODX public root
 2. create a .modmore.com.key file and add your personal credentials:
 
 ```
