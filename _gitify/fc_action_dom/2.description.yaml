@@ -1,0 +1,10 @@
+id: 70
+set: 2
+action: resource/update
+name: description
+description: null
+container: modx-panel-resource
+rule: fieldTitle
+value: Vorschautext
+constraint_class: modResource
+rank: 4

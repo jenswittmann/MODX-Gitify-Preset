@@ -1,0 +1,10 @@
+id: 72
+set: 2
+action: resource/update
+name: template
+description: null
+container: modx-panel-resource
+rule: fieldVisible
+value: '0'
+constraint_class: modResource
+rank: 5

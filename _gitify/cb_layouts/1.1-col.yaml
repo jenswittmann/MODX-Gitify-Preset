@@ -1,0 +1,11 @@
+id: 1
+name: 1-col
+description: ''
+sortorder: 1
+icon: layout_1
+columns: '[{"reference":"col1","width":"100"}]'
+template: '[[+col1]]'
+availability: '[]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[]'

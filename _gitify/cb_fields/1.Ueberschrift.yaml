@@ -1,0 +1,12 @@
+id: 1
+parent_properties: null
+input: heading
+name: Überschrift
+description: ''
+sortorder: 1
+icon: heading
+template: '@CHUNK headline'
+properties: '{"default_level":"h2","available_levels":"h2=H2,h3=H3","use_tinyrte":"0"}'
+availability: ''
+layouts: ''
+settings: '[]'

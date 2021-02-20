@@ -1,0 +1,9 @@
+id: 2
+username: Redaktion
+password: $2y$10$Xm8MqnkpXDUC54MF8WVvbuiqI82z79ta0PpunRbhAPToMO6sYuxSG
+remote_key: null
+remote_data: null
+salt: 096216f51b8eb2f97e3f595079be8a24
+primary_group: 2
+session_stale: 'a:1:{i:1;s:3:"web";}'
+createdon: 1613757660

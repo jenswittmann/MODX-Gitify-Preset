@@ -1,0 +1,5 @@
+key: enable_gravatar
+value: '0'
+xtype: combo-boolean
+area: manager
+editedon: '2021-02-20 20:04:06'

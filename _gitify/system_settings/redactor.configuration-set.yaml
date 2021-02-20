@@ -1,0 +1,6 @@
+key: redactor.configuration_set
+value: '3'
+xtype: numberfield
+namespace: redactor
+area: configuration
+editedon: '2021-02-20 20:03:47'

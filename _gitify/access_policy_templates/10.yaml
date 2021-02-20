@@ -1,0 +1,5 @@
+id: 10
+template_group: 1
+name: RedactorTemplate
+description: 'Policy Template for access to the Redactor configurator.'
+lexicon: 'redactor:permissions'

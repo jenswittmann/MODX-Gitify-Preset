@@ -1,0 +1,12 @@
+id: 2
+parent_properties: null
+input: redactor
+name: Text
+description: ''
+sortorder: 2
+icon: richtext
+template: '@CHUNK richtext'
+properties: '{"configuration_set":"1"}'
+availability: ''
+layouts: ''
+settings: '[]'

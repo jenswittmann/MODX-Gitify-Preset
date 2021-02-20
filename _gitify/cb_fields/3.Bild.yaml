@@ -1,0 +1,12 @@
+id: 3
+parent_properties: null
+input: image_with_title
+name: Bild
+description: ''
+sortorder: 3
+icon: image
+template: '@CHUNK image'
+properties: '{"source":"1","directory":"images\/[[+alias]]\/[[+year]]\/","crop_directory":"crops\/","crops":"","open_crops_automatically":"false","file_types":"png,jpg,jpeg","thumbnail_size":"0","thumbnail_crop":"","use_tinyrte":"0"}'
+availability: ''
+layouts: ''
+settings: '[]'

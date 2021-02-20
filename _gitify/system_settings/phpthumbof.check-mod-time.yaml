@@ -1,0 +1,5 @@
+key: phpthumbof.check_mod_time
+xtype: combo-boolean
+namespace: phpthumbof
+area: 'Cache [common]'
+editedon: '2021-02-20 20:01:47'

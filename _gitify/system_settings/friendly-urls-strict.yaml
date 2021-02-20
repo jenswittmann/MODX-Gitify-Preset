@@ -1,0 +1,5 @@
+key: friendly_urls_strict
+value: '1'
+xtype: combo-boolean
+area: furls
+editedon: '2021-02-20 20:04:06'
