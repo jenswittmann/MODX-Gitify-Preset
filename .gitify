@@ -211,3 +211,6 @@ data:
 #             - id
 #             - name
 #         package: collections
+    lexicon_entries:
+        class: modLexiconEntry
+        primary: id
