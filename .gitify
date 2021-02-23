@@ -81,6 +81,7 @@ data:
             - 'key:NOT IN':
                 - 'gitifywatch.gitify_path'
                 - 'gitify.git_path'
+            - 'xtype:!=': 'text-password'
 #     extension_packages:
 #         class: modExtensionPackage
 #         primary: namespace
