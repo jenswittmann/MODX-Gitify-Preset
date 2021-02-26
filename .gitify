@@ -82,6 +82,7 @@ data:
                 - 'gitifywatch.gitify_path'
                 - 'gitify.git_path'
                 - 'updater.last_send_core_notification'
+            - 'xtype:!=': 'text-password'
 #     extension_packages:
 #         class: modExtensionPackage
 #         primary: namespace
@@ -217,3 +218,6 @@ data:
 #             - id
 #             - name
 #         package: collections
+    lexicon_entries:
+        class: modLexiconEntry
+        primary: id
