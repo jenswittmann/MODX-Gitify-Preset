@@ -81,6 +81,7 @@ data:
             - 'key:NOT IN':
                 - 'gitifywatch.gitify_path'
                 - 'gitify.git_path'
+                - 'updater.last_send_core_notification'
 #     extension_packages:
 #         class: modExtensionPackage
 #         primary: namespace
@@ -146,6 +147,11 @@ data:
         primary: internalKey
         where:
             - 'internalKey': '2'
+        exclude_keys:
+            - logincount
+            - lastlogin
+            - thislogin
+            - sessionid
     user_member_groups:
         class: modUserGroupMember
         primary: id
