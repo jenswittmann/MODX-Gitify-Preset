@@ -1,0 +1,5 @@
+key: contentblocks.link.link_detection_pattern
+value: '^(?:http|(\[\[?\~))'
+namespace: contentblocks
+area: 'Input: Link'
+editedon: '2021-02-26 11:29:46'
