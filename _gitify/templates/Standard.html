@@ -16,6 +16,7 @@ static_file: /templates/standard.template.tpl
             href="[[++tplPath]]frontend/styleguide/css/font/{fontname}.woff2"
             as="font"
         />
+		<link rel="stylesheet" href="[[++tplPath]]frontend/styleguide/css/style.css?v=[[getFileHash?f=`[[++tplPath]]frontend/styleguide/css/style.css`]]">
         <meta charset="utf-8" />
         <title>[[*pagetitle:jolitypo:htmlent]] &bull; [[++site_name]]</title>
         <meta
@@ -79,6 +80,6 @@ static_file: /templates/standard.template.tpl
             </section>
         </main>
 
-        <script src="[[++tplPath]]frontend/styleguide/js/script.js" async></script>
+        <script src="[[++tplPath]]frontend/styleguide/js/script.js?v=[[getFileHash?f=`[[++tplPath]]frontend/styleguide/js/script.js`]]" async></script>
     </body>
 </html>
