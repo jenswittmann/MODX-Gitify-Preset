@@ -62,11 +62,11 @@ data:
         extension: .php
         where:
             - 'category': '8'
-#     plugin_events:
-#         class: modPluginEvent
-#         primary:
-#             - pluginid
-#             - event
+    plugin_events:
+        class: modPluginEvent
+        primary:
+            - pluginid
+            - event
 #     events:
 #         class: modEvent
 #         primary: name
