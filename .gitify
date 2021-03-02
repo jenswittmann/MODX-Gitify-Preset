@@ -221,3 +221,14 @@ data:
     lexicon_entries:
         class: modLexiconEntry
         primary: id
+        
+    clientconfig_setting:
+        class: cgSetting
+        primary:
+            - key
+        exclude_keys:
+            - value
+    clientconfig_group:
+        class: cgGroup
+        primary:
+            - id
