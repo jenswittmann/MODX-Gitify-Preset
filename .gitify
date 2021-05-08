@@ -61,7 +61,7 @@ data:
         primary: name
         extension: .php
         where:
-            - 'category': '8'
+            - 'category': 'Layout'
     plugin_events:
         class: modPluginEvent
         primary:
