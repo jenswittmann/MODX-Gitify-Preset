@@ -11,6 +11,10 @@ content: "$dom = new DOMDocument();\n$dom->loadHTML(mb_convert_encoding($input, 
 -----
 
 
+if (empty($input)) {
+    return;
+}
+    
 $dom = new DOMDocument();
 $dom->loadHTML(mb_convert_encoding($input, "HTML-ENTITIES", "UTF-8"));
 foreach ($dom->getElementsByTagName("a") as $a) {
