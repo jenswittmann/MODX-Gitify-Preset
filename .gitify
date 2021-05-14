@@ -17,6 +17,27 @@ packages:
             - contentblocks
             - redactor
 data:
+    system_settings:
+        class: modSystemSetting
+        primary: key
+        where:
+            - 'editedon:!=': '0000-00-00 00:00:00'
+            - 'key:NOT IN':
+                - 'gitifywatch.gitify_path'
+                - 'gitify.git_path'
+                - 'updater.last_send_core_notification'
+            - 'xtype:!=': 'text-password'
+    mediasources:
+        class: modMediaSource
+        primary: id
+        
+    # mediasource_elements:
+    #     class: sources.modMediaSourceElement
+    #     primary:
+    #         - source
+    #         - object_class
+    #         - object
+    #         - context_key
     # contexts:
     #     class: modContext
     #     primary: key
@@ -25,6 +46,7 @@ data:
     #     primary:
     #         - context_key
     #         - key
+    
     categories:
         class: modCategory
         primary: category
@@ -36,14 +58,16 @@ data:
         class: modTemplate
         primary: templatename
         extension: .html
-#     template_variables:
-#         class: modTemplateVar
-#         primary: name
-#     template_variables_access:
-#         class: modTemplateVarTemplate
-#         primary:
-#             - tmplvarid
-#             - templateid
+        
+    # template_variables:
+    #     class: modTemplateVar
+    #     primary: name
+    # template_variables_access:
+    #     class: modTemplateVarTemplate
+    #     primary:
+    #         - tmplvarid
+    #         - templateid
+    
     chunks:
         class: modChunk
         primary: name
@@ -67,28 +91,20 @@ data:
         primary:
             - pluginid
             - event
-#     events:
-#         class: modEvent
-#         primary: name
-#     namespaces:
-#         class: modNamespace
-#         primary: name
-    system_settings:
-        class: modSystemSetting
-        primary: key
-        where:
-            - 'editedon:!=': '0000-00-00 00:00:00'
-            - 'key:NOT IN':
-                - 'gitifywatch.gitify_path'
-                - 'gitify.git_path'
-                - 'updater.last_send_core_notification'
-            - 'xtype:!=': 'text-password'
-#     extension_packages:
-#         class: modExtensionPackage
-#         primary: namespace
-#         exclude_keys:
-#             - created_at
-#             - updated_at
+            
+    # events:
+    #     class: modEvent
+    #     primary: name
+    # namespaces:
+    #     class: modNamespace
+    #     primary: name
+    # extension_packages:
+    #     class: modExtensionPackage
+    #     primary: namespace
+    #     exclude_keys:
+    #         - created_at
+    #         - updated_at
+    
     fc_sets:
         class: modFormCustomizationSet
         primary: id
@@ -105,16 +121,6 @@ data:
         primary:
             - set
             - name
-    mediasources:
-        class: modMediaSource
-        primary: id
-#     mediasource_elements:
-#         class: sources.modMediaSourceElement
-#         primary:
-#             - source
-#             - object_class
-#             - object
-#             - context_key
     dashboards:
         class: modDashboard
         primary:
@@ -132,12 +138,13 @@ data:
         class: modContentType
         primary:
             - name
-#     menus:
-#         class: modMenu
-#         primary:
-#             - text
-#             - parent
-#             
+            
+    # menus:
+    #     class: modMenu
+    #     primary:
+    #         - text
+    #         - parent 
+               
     user:
         class: modUser
         primary: id
@@ -200,24 +207,25 @@ data:
             - id
             - name
         package: redactor
-# 
-#     collection_settings:
-#         class: CollectionSetting
-#         primary:
-#             - collection
-#         package: collections
-#     collection_templates:
-#         class: CollectionTemplate
-#         primary:
-#             - id
-#             - name
-#         package: collections
-#     collection_template_columns:
-#         class: CollectionTemplateColumn
-#         primary:
-#             - id
-#             - name
-#         package: collections
+
+    # collection_settings:
+    #     class: CollectionSetting
+    #     primary:
+    #         - collection
+    #     package: collections
+    # collection_templates:
+    #     class: CollectionTemplate
+    #     primary:
+    #         - id
+    #         - name
+    #     package: collections
+    # collection_template_columns:
+    #     class: CollectionTemplateColumn
+    #     primary:
+    #         - id
+    #         - name
+    #     package: collections
+    
     lexicon_entries:
         class: modLexiconEntry
         primary: id
@@ -233,19 +241,19 @@ data:
         primary:
             - id
             
-#    migx_formtab:
-#        class: migxFormtab
-#        primary: [id, caption]
-#        package: migx
-#    migx_formtab_field:
-#        class: migxFormtabField
-#        primary: [id, field]
-#    migx_config_element:
-#        class: migxConfigElement
-#        primary: id
-#    migx_element:
-#        class: migxElement
-#        primary: id
-#    migx_config:
-#        class: migxConfig
-#        primary: [id, name]
+    # migx_formtab:
+    #     class: migxFormtab
+    #     primary: [id, caption]
+    #     package: migx
+    # migx_formtab_field:
+    #     class: migxFormtabField
+    #     primary: [id, field]
+    # migx_config_element:
+    #     class: migxConfigElement
+    #     primary: id
+    # migx_element:
+    #     class: migxElement
+    #     primary: id
+    # migx_config:
+    #     class: migxConfig
+    #     primary: [id, name]
