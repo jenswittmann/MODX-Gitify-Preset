@@ -7,25 +7,17 @@ static_file: /plugins/layout/managermodify.plugin.php
 
 -----
 
-/*
-jQuery(function($) {
-    var checkCB = setInterval(function() {
-        if (ContentBlocks.initialized) {
-            $("#contentblocks .contentblocks-field-wrap").addClass("prevent-drag");
-            $("#contentblocks .contentblocks-repeater-wrapper").parents(".prevent-drag").removeClass("prevent-drag");
-            clearInterval(checkCB);
-        }
-    }, 50);
-});
-*/
+$resource = $modx->controller->resource;
 
-$script = '
-	<script>
-	window.addEventListener("load", function(event) {
-    	document.querySelector("body").classList.add("template-id-'.print_r($modx->controller->resource->get('template'), true).'");
-    });
-	</script>
-';
+if ($resource) {
+    $script = '
+    	<script>
+    	window.addEventListener("load", function(event) {
+        	document.querySelector("body").classList.add("template-id-'.$resource->get('template').'");
+        });
+    	</script>
+    ';
+}
 
 if ( !$modx->user->isMember('Administrator') ) {
 	$modx->regClientCSS( MODX_BASE_URL . $modx->getOption('tplPath') . 'frontend/styleguide/css/modx.css' );
