@@ -1,0 +1,5 @@
+key: session_cookie_secure
+value: '1'
+xtype: combo-boolean
+area: session
+editedon: '2021-07-28 12:44:33'
