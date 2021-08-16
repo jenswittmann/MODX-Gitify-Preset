@@ -178,11 +178,13 @@ data:
         where:
             - 'id': '17'  
     access_context:
-        class: modAccessContext
+        class: modAccessContext       
+    access_category:
+        class: modAccessCategory
     access_policy_templates:
         class: modAccessPolicyTemplate
     access_policy_template_groups:
-        class: modAccessPolicyTemplateGroup
+        class: modAccessPolicyTemplateGroup 
         
     cb_fields:
         class: cbField
