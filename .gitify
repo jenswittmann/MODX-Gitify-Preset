@@ -185,6 +185,8 @@ data:
         class: modAccessPolicyTemplate
     access_policy_template_groups:
         class: modAccessPolicyTemplateGroup 
+    access_resource_groups:
+        class: modAccessResourceGroup
         
     cb_fields:
         class: cbField
