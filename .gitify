@@ -26,6 +26,7 @@ data:
                 - 'gitifywatch.gitify_path'
                 - 'gitify.git_path'
                 - 'updater.last_send_core_notification'
+                - 'formit.form_encryptkey'
             - 'xtype:!=': 'text-password'
     mediasources:
         class: modMediaSource
