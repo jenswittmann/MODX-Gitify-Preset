@@ -1,5 +1,7 @@
 # MODX Gitify Preset
 
+https://user-images.githubusercontent.com/5232770/108606863-14ce2700-73bd-11eb-9289-dbb587677703.mp4
+
 1. add files and folder to your MODX public root
 2. create a .modmore.com.key file and add your personal credentials:
 
@@ -12,8 +14,7 @@ api_key: modmoreapikey123
 4. install MODX Extras `Gitify package:install --all` (use `--interactive` if you customize .gitify file)
 5. login into manager and update all extras (not possible via Gitify now, important to get latest i.e. ContentBlocks)
 6. install preset `Gitify build` <sup>2</sup>
-
-Howto Video: https://github.com/jenswittmann/MODX-Gitify-Preset/issues/1    
+    
 Gitify Documentation: https://docs.modmore.com/en/Open_Source/Gitify/index.html
 
 -----
