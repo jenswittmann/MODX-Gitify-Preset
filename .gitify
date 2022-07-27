@@ -188,6 +188,10 @@ data:
         class: modAccessPolicyTemplateGroup 
     access_resource_groups:
         class: modAccessResourceGroup
+    access_permissions:
+        class: modAccessPermission
+        where:
+            - 'template:IN': [ 11 ]
         
     cb_fields:
         class: cbField
