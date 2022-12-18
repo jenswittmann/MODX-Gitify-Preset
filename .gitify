@@ -29,7 +29,7 @@ data:
                 - 'formit.form_encryptkey'
             - 'xtype:!=': 'text-password'
     mediasources:
-        class: modMediaSource
+        class: sources.modMediaSource
         primary: id
         
     # mediasource_elements:
