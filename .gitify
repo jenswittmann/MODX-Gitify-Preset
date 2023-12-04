@@ -263,11 +263,11 @@ data:
     # migx_element:
     #     class: migxElement
     #     primary: id
+    # migx_config:
+    #     class: migxConfig
+    #     primary: [id, name]
 
     # formalicious_fields_types:
     #     class: FormaliciousFieldType
     #     primary: id
     #     package: formalicious
-    # migx_config:
-    #     class: migxConfig
-    #     primary: [id, name]
