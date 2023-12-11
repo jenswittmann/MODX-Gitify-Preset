@@ -218,18 +218,24 @@ data:
         package: redactor
 
     # collection_settings:
-    #     class: CollectionSetting
+    #     class: Collections\Model\CollectionSetting
+    #     namespace: Collections
+    #     model: Collections\Model
     #     primary:
     #         - collection
     #     package: collections
     # collection_templates:
-    #     class: CollectionTemplate
+    #     class: Collections\Model\CollectionTemplate
+    #     namespace: Collections
+    #     model: Collections\Model
     #     primary:
     #         - id
     #         - name
     #     package: collections
     # collection_template_columns:
-    #     class: CollectionTemplateColumn
+    #     class: Collections\Model\CollectionTemplateColumn
+    #     namespace: Collections
+    #     model: Collections\Model
     #     primary:
     #         - id
     #         - name
@@ -268,6 +274,8 @@ data:
     #     primary: [id, name]
 
     # formalicious_fields_types:
-    #     class: FormaliciousFieldType
     #     primary: id
     #     package: formalicious
+    #     class: Sterc\Formalicious\Model\FormaliciousFieldType
+    #     namespace: Sterc\Formalicious
+    #     model: Sterc\Formalicious\Model
