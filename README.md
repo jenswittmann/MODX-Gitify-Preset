@@ -9,7 +9,7 @@
 5. Unstall Preset: `gitify build` <sup>2</sup>
 
 <sup>1</sup> Be sure that you don't have spaces in the full path to the MODX root, for example `/MAMP/My Project/MODX/ > /MAMP/My-Project/MODX/`.  
-<sup>2</sup> If you don't want use `default` for your template foldername, take a search'n replace inside the gitify/ folder `tpl/default > tpl/my-template-name` and rename the folder `assets/tpl/default`.
+<sup>2</sup> If you don't want use `default` for your template foldername, take a search'n replace inside the `_gitify/` folder with `tpl/default > tpl/my-template-name` and rename the folder `assets/tpl/default`. When search'n replace inside the MediaSource, be careful to replace the string length also `… ;s:19:"assets/tpl/default/" … > … ;s:28:"assets/tpl/my-template-name/" …`.
 
 ## Links
 
