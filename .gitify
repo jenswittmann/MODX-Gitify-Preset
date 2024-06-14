@@ -8,7 +8,6 @@ packages:
             - collections
             - jolitypo
             - pdotools
-            - pthumb
             - resizer
             - translit
             - versionx
