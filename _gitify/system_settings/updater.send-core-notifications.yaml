@@ -1,6 +1,0 @@
-key: updater.send_core_notifications
-value: '1'
-xtype: combo-boolean
-namespace: updater
-area: '(2) Notifications: Core'
-editedon: '2021-02-20 20:30:05'

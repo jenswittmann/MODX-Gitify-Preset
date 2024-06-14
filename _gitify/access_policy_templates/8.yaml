@@ -1,5 +1,0 @@
-id: 8
-template_group: 1
-name: Updater_SystemMaintenancePolicyTemplate
-description: 'Policy template for system maintenance related tasks.'
-lexicon: 'updater:permissions'
