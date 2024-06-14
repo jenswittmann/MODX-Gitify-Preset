@@ -1,5 +1,0 @@
-key: phpthumbof.check_mod_time
-xtype: combo-boolean
-namespace: phpthumbof
-area: 'Cache [common]'
-editedon: '2024-06-14 14:31:44'

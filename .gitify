@@ -54,7 +54,7 @@ data:
         extension: .html
     chunks:
         class: modChunk
-        primary: key
+        primary: id
         extension: .html
         where:
             - { "category:IN": [7, 9] }
@@ -91,6 +91,11 @@ data:
         primary:
             - id
             - name
+    dashboard_widget_placement:
+        class: modDashboardWidgetPlacement
+        primary:
+            - dashboard
+            - widget
     content_type:
         class: modContentType
         primary:

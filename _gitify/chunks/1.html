@@ -3,8 +3,12 @@ source: 2
 name: headline
 description: ''
 category: 7
-snippet: ''
 properties: 'a:0:{}'
 static: 1
 static_file: /chunks/contentblocks/headline.chunk.tpl
-content: ''
+
+-----
+
+<h[[+level]] class="headline fs-[[+level:add=`1`]] mv4">
+    [[+value:jolitypo]]
+</h[[+level]]>

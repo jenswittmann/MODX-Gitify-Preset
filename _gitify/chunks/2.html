@@ -3,8 +3,12 @@ source: 2
 name: richtext
 description: ''
 category: 7
-snippet: ''
 properties: 'a:0:{}'
 static: 1
 static_file: /chunks/contentblocks/richtext.chunk.tpl
-content: ''
+
+-----
+
+<div class="richtext w-70-l [[+fontSize:is=`large`:then=`fs-3`]]">
+    [[+value:jolitypo:replaceLinks]]
+</div>
