@@ -1,11 +1,17 @@
-<figure class="ma0 mb3">
-    <picture>
-        <source data-srcset="[[toWebp? &input=`[[+url:pthumb=`&w=1000`]]` &options=`75`]]" type="image/webp">
-        <img data-src="[[+url:pthumb=`&w=1000`]]" width="[[+width]]" height="[[+height]]" alt="[[+alt:jolitypo:htmlent]]" class="lazyload db w-100 w-[[+imgSize:default=`100`]]-ns h-inherit [[+classnames]]">
-    </picture>
-    [[+title:notempty=`
-        <figcaption class="fs-5 mt2 mb3">
-            [[+caption:jolitypo]]
+<figure class="image">
+    <img
+        data-srcset[[!resizeImage?
+            &input=`{$url}`
+            &options=`{$sizes ?: '2500,1250,625'}` ]]
+        alt="{$alt | jolitypo | htmlent}"
+        class="lazyload db {$classnames ?: 'w-100 h-inherit'}"
+        {if $attributes}
+            {$attributes}
+        {/if}
+    />
+    {if $title}
+        <figcaption class="image--caption">
+            {$title | jolitypo}
         </figcaption>
-    `]]
+    {/if}
 </figure>

@@ -1,3 +1,3 @@
-<h[[+level]] class="headline fs-[[+level:add=`1`]] mv4">
-    [[+value:jolitypo]]
-</h[[+level]]>
+<{$level} class="headline headline--{$level}">
+    {$value | jolitypo}
+</{$level}>

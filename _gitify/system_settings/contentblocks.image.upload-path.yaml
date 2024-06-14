@@ -1,0 +1,5 @@
+key: contentblocks.image.upload_path
+value: upload/
+namespace: contentblocks
+area: 'Input: Image'
+editedon: '2024-06-14 17:42:04'
