@@ -1,11 +1,10 @@
-id: 57
+id: 138
 set: 1
-action: resource/create
+action: Resource/Create
 name: modx-panel-resource-tv
 description: null
 container: modx-resource-tabs
 rule: tabVisible
 value: '0'
-constraint_class: modResource
-for_parent: 1
+constraint_class: MODX\Revolution\modResource
 rank: 2

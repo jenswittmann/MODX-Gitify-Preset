@@ -1,7 +1,7 @@
 id: 18
 source: 2
 name: toWebp
-category: Layout
+category: 9
 properties: 'a:0:{}'
 static_file: /snippets/layout/towebp.snippet.php
 

@@ -1,6 +1,6 @@
 id: 2
 profile: 1
-action: resource/update
+action: Resource/Update
 active: 1
 template: 1
-constraint_class: modResource
+constraint_class: MODX\Revolution\modResource

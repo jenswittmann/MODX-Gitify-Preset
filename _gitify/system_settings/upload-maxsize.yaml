@@ -1,4 +1,5 @@
 key: upload_maxsize
 value: '33554432'
+xtype: numberfield
 area: file
-editedon: '2021-02-20 20:27:45'
+editedon: '2024-06-14 14:30:11'

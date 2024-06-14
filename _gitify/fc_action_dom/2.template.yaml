@@ -1,10 +1,10 @@
-id: 72
+id: 161
 set: 2
-action: resource/update
+action: Resource/Update
 name: template
 description: null
 container: modx-panel-resource
 rule: fieldVisible
 value: '0'
-constraint_class: modResource
+constraint_class: MODX\Revolution\modResource
 rank: 5

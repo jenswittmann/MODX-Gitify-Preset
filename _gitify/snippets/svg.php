@@ -1,7 +1,7 @@
 id: 19
 source: 2
 name: svg
-category: Layout
+category: 9
 properties: 'a:0:{}'
 static_file: /snippets/layout/svg.snippet.php
 

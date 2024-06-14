@@ -3,6 +3,7 @@ parent_properties: null
 input: heading
 name: Überschrift
 description: ''
+content_desc: null
 sortorder: 1
 icon: heading
 template: '@CHUNK headline'

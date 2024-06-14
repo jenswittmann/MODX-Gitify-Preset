@@ -3,6 +3,7 @@ parent_properties: null
 input: redactor
 name: Text
 description: ''
+content_desc: null
 sortorder: 2
 icon: richtext
 template: '@CHUNK richtext'

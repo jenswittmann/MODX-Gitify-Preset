@@ -1,0 +1,10 @@
+id: 159
+set: 2
+action: Resource/Update
+name: pub_date
+description: null
+container: modx-panel-resource
+rule: fieldVisible
+value: '0'
+constraint_class: MODX\Revolution\modResource
+rank: 5

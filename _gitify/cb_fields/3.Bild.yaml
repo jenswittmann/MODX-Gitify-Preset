@@ -3,6 +3,7 @@ parent_properties: null
 input: image_with_title
 name: Bild
 description: ''
+content_desc: null
 sortorder: 3
 icon: image
 template: '@CHUNK image'
