@@ -92,6 +92,13 @@ data:
         extension: .php
         where:
             - { "category:IN": [9] }
+    plugin_events:
+        class: modPluginEvent
+        primary:
+            - pluginid
+            - event
+        where:
+            - { "pluginid:IN": [12] }
     fc_sets:
         class: modFormCustomizationSet
         primary: id
