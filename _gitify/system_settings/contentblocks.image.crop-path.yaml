@@ -1,5 +1,5 @@
 key: contentblocks.image.crop_path
-value: .crops/
+value: crops/
 namespace: contentblocks
 area: 'Input: Image'
 editedon: '2024-06-15 22:00:06'
