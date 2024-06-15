@@ -1,0 +1,6 @@
+key: contentblocks.file_template_source
+value: '2'
+xtype: modx-combo-source
+namespace: contentblocks
+area: 'File Templates'
+editedon: '2024-06-15 21:23:38'

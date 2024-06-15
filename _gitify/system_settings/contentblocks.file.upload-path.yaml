@@ -1,5 +1,5 @@
 key: contentblocks.file.upload_path
-value: upload/
+value: files/
 namespace: contentblocks
 area: 'Input: File'
-editedon: '2024-06-14 17:41:43'
+editedon: '2024-06-15 21:23:48'
