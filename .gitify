@@ -79,7 +79,7 @@ data:
         primary: id
         extension: .html
         where:
-            - { "category:IN": [7, 9] }
+            - { "category:IN": [6, 9] }
     snippets:
         class: modSnippet
         primary: name

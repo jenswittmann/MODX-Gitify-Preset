@@ -1,17 +1,19 @@
 <figure class="image">
     <img
-        data-srcset[[!resizeImage?
-            &input=`{$url}`
-            &options=`{$sizes ?: '2500,1250,625'}` ]]
-        alt="{$alt | jolitypo | htmlent}"
-        class="lazyload db {$classnames ?: 'w-100 h-inherit'}"
-        {if $attributes}
-            {$attributes}
-        {/if}
+        srcset[[!resizeImage?
+            &input=`[[+crops.Zuschnitt.url:default=`[[+url]]`]]`
+            &options=`[[+sizes:default=`2500,1250,625`]]`
+        ]]
+        alt="[[+alt:jolitypo:htmlent]]"
+        [[+noLazyload:isnt=`1`:then=`
+            loading="lazy"
+        `]]
+        class="db [[+classnames:default=`w-100 h-inherit bg-white`]]"
+        [[+attributes]]
     />
-    {if $title}
-        <figcaption class="image--caption">
-            {$title | jolitypo}
+    [[+title:notempty=`
+        <figcaption class="image--caption f1 tr mt3-m o-40">
+            [[+title:jolitypo]]
         </figcaption>
-    {/if}
+    `]]
 </figure>
