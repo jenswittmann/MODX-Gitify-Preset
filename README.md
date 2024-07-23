@@ -2,6 +2,8 @@
 
 Follow these steps to install the latest [MODX3 CMF](https://modx.com) and basic [MODX Extras](https://extras.modx.com) via CLI. Then you can set some basic settings to start developing: Best Practive System Settings, cleaner Form Customisation, some useful Snippets, some ContentBlocks Fields and a basic User Role for Editors. Have a look at the [_gitify/](https://github.com/jenswittmann/MODX-Gitify-Preset/tree/main/_gitify) folder.
 
+It's a good place to start using [CurlyFramework](https://jenswittmann.github.io/CurlyFramework/) and its [modx.css](https://github.com/jenswittmann/CurlyFramework/blob/6.0.0/dev/css/modx.scss) for a clean [ContentBlocks](https://modmore.com/contentblocks/) interface. 😸
+
 ## Installation
 
 Here is a little Screencast: https://youtu.be/UEpvBnX4S-U
