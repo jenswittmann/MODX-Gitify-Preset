@@ -6,7 +6,7 @@ description: ''
 content_desc: null
 sortorder: 2
 icon: richtext
-template: '@CHUNK richtext'
+template: '@PDO_FILE contentblocks/richtext.chunk.tpl'
 properties: '{"configuration_set":"1"}'
 availability: ''
 layouts: ''
