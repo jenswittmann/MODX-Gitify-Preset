@@ -1,4 +1,4 @@
 key: login_logo
-value: '/{tplPath}frontend/styleguide/img/logo-login.svg'
+value: '/assets/tpl/default/frontend/styleguide/img/logo-login.svg'
 area: authentication
 editedon: '2024-06-14 16:22:56'
