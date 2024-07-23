@@ -3,82 +3,12 @@ source: 2
 templatename: Standard
 properties: 'a:0:{}'
 static: 1
-static_file: templates/standard.template.tpl
+static_file: /templates/standard.template.tpl
 
 -----
 
-<!DOCTYPE html>
-<html lang="[[++cultureKey]]" class="scale-content">
-    <head>
-        <link
-            rel="preload"
-            href="[[++tplPath]]frontend/styleguide/css/font/{fontname}.woff2"
-            as="font"
-        />
-        <link rel="stylesheet" href="[[++tplPath]]frontend/styleguide/css/style.css?v=[[getFileHash?f=`[[++tplPath]]frontend/styleguide/css/style.css`]]">
-        <meta charset="utf-8" />
-        <title>[[*pagetitle:jolitypo:htmlent]] &bull; [[++site_name]]</title>
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        />
-        <link rel="icon" type="image/svg+xml" href="[[++tplPath]]frontend/favicon.svg" />
-        <meta
-            name="description"
-            content="[[*description:jolitypo:htmlent]]"
-        />
-        <meta property="og:image" content="[[cbGetFieldContent:pthumb=`&w=1000`?
-            &field=`4`
-            &limit=`1`
-            &tpl=`rawUrl` ]]" />
-    </head>
-    <body data-scrolling="true" class="">
-        <header class="head">
+{include 'head'}
 
-            <button
-                id="navopener"
-                aria-expanded="false"
-                aria-controls="nav"
-                data-aria-use-classname="hidden"
-                class="btnnav"
-                data-modal-open
-            >
-                <span class="clip"> Menü öffnen </span>
-            </button>
+{$_modx->resource.content}
 
-            <nav
-                id="nav"
-                aria-label="main navigation"
-                aria-modal="true"
-                aria-labeledby="navopener"
-                class="nav"
-            >
-                <ul role="menu">
-                    [[pdoMenu?
-                        &startId=`0`
-                        &level=`1`
-                        &tplOuter=`@INLINE [[+wrapper]]`
-                        &tpl=`@INLINE
-                            <li role="menuitem" class="[[+classnames]]">
-                                <a href="[[+link]]" [[+attributes]]>
-                                    [[+menutitle]]
-                                </a>
-                            </li>
-                        ` ]]
-                </ul>
-            </nav>
-        </header>
-
-        <main id="content">
-            <h1>
-                [[*pagetitle:jolitypo]]
-            </h1>
-
-            <section>
-                [[*content]]
-            </section>
-        </main>
-
-        <script src="[[++tplPath]]frontend/styleguide/js/script.js?v=[[getFileHash?f=`[[++tplPath]]frontend/styleguide/js/script.js`]]" async></script>
-    </body>
-</html>
+{include 'foot'}

@@ -1,14 +1,3 @@
-id: 1
-source: 2
-name: head
-description: ''
-category: 9
-properties: 'a:0:{}'
-static: 1
-static_file: /chunks/layout/head.chunk.tpl
-
------
-
 <!DOCTYPE html>
 <html lang="{$_modx->config.cultureKey}" class="scale-content smooth-scroll">
     <head>
