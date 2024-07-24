@@ -9,7 +9,7 @@ It's a good place to start using [CurlyFramework](https://jenswittmann.github.io
 ✅ MODX3 ready  
 ✅ Best practice system settings  
 ✅ Fenom parser ready  
-✅ Large [.gitify](https://github.com/modmore/Gitify/) for extracting objects  
+✅ Large [.gitify](https://github.com/jenswittmann/MODX-Gitify-Preset/blob/main/.gitify) for extracting objects  
 ✅ ContentBlocks basic fields and layout  
 ✅ ContentBlocks simple manager layout style  
 ✅ ResizeImage snippet for WebP and srcset support  
