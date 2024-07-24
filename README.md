@@ -1,8 +1,8 @@
-# MODX Gitify Preset
+# <img src="https://github.com/user-attachments/assets/110ca05d-7b1c-4117-addc-4fe6db51a302" width="25" alt="MODX Logo" /> MODX Gitify Preset
 
 Install a fresh [MODX3 CMF](https://modx.com) with everything you need to start a new project.
 
-It's a good place to start using [CurlyFramework](https://jenswittmann.github.io/CurlyFramework/) and its [modx.css](https://github.com/jenswittmann/CurlyFramework/blob/6.0.0/dev/css/modx.scss) for a clean [ContentBlocks](https://modmore.com/contentblocks/) interface. 😸
+It's a good place to start using [CurlyFramework](https://jenswittmann.github.io/CurlyFramework/) and its [modx.css](https://github.com/jenswittmann/CurlyFramework/blob/6.0.0/dev/css/modx.scss) for a clean [ContentBlocks](https://modmore.com/contentblocks/) interface.
 
 ## Features
 
