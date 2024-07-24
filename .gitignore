@@ -20,3 +20,11 @@ site/upload/*
 site/config.core.php
 site/ht.access
 site/index.php
+/.modmore.com.key.dev
+/assets/components
+config.core.php
+/connectors
+/core
+/ht.access
+/index.php
+/pflege
