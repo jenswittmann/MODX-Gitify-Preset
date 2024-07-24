@@ -8,7 +8,6 @@ packages:
             - collections
             - jolitypo
             - pdotools
-            - resizer
             - translit
             - versionx
     modmore.com:
