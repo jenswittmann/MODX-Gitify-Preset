@@ -17,8 +17,6 @@ It's a good place to start using [CurlyFramework](https://jenswittmann.github.io
 ✅ Snippet for SVG embedding  
 ✅ Snippet for formatting links in Richtext  
 
-**Full Changelog**: https://github.com/jenswittmann/MODX-Gitify-Preset/commits/1.0.0
-
 ## Installation
 
 Follow these steps to install the latest MODX3 and install basic [MODX Extras](https://extras.modx.com) via CLI. Setup the features above via Gitify.
