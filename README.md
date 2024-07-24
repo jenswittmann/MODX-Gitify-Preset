@@ -20,7 +20,7 @@ It's a good place to start using [CurlyFramework](https://jenswittmann.github.io
 ## Installation
 
 Follow these steps to install the latest MODX3 and install basic [MODX Extras](https://extras.modx.com) via CLI. Setup the features above via Gitify.
-Here is a little Screencast: https://youtu.be/UEpvBnX4S-U
+Here is a little Screencast: https://youtu.be/FMuF_cP8tc0
 
 1. Add files to your MODX public root:
 ```
