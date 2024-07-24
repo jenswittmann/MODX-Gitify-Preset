@@ -9,12 +9,15 @@ It's a good place to start using [CurlyFramework](https://jenswittmann.github.io
 ✅ MODX3 ready  
 ✅ Best practice system settings  
 ✅ Fenom parser ready  
+✅ Large [.gitify](https://github.com/modmore/Gitify/) for extracting objects  
 ✅ ContentBlocks basic fields and layout  
 ✅ ContentBlocks simple manager layout style  
 ✅ ResizeImage snippet for WebP and srcset support  
 ✅ Simple form customisation for editor role  
 ✅ Snippet for SVG embedding  
 ✅ Snippet for formatting links in Richtext  
+
+**Full Changelog**: https://github.com/jenswittmann/MODX-Gitify-Preset/commits/1.0.0
 
 ## Installation
 
