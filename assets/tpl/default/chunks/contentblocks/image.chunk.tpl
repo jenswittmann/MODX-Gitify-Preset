@@ -1,9 +1,9 @@
 <figure class="image">
     <img
-        srcset{'!resizeImage' | snippet : [
-            'input' => $crops.Zuschnitt.url ?: $url,
-            'options' => $sizes ?: '2500,1250,625'
-        ]}
+        srcset[[!resizeImage?
+            &input=`[[+crops.Zuschnitt.url:default=`[[+url]]`]]`
+            &options=`[[+sizes:default=`2500,1250,625`]]`
+        ]]
         alt="{$alt | jolitypo | htmlent}"
         {if !$noLazyload}
             loading="lazy"
