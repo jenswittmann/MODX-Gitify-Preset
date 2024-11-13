@@ -9,6 +9,7 @@ It's a good place to start using [CurlyFramework](https://jenswittmann.github.io
 ✅ MODX3 ready  
 ✅ Best practice system settings  
 ✅ Fenom parser ready  
+✅ Large [.gitify](https://github.com/jenswittmann/MODX-Gitify-Preset/blob/main/.gitify) for extracting objects  
 ✅ ContentBlocks basic fields and layout  
 ✅ ContentBlocks simple manager layout style  
 ✅ ResizeImage snippet for WebP and srcset support  
@@ -19,7 +20,7 @@ It's a good place to start using [CurlyFramework](https://jenswittmann.github.io
 ## Installation
 
 Follow these steps to install the latest MODX3 and install basic [MODX Extras](https://extras.modx.com) via CLI. Setup the features above via Gitify.
-Here is a little Screencast: https://youtu.be/UEpvBnX4S-U
+Here is a little Screencast: https://youtu.be/FMuF_cP8tc0
 
 1. Add files to your MODX public root:
 ```
