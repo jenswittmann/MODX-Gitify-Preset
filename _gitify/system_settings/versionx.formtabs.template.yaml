@@ -1,0 +1,5 @@
+key: versionx.formtabs.template
+xtype: modx-combo-boolean
+namespace: versionx
+area: 'Form Tabs'
+editedon: '2024-11-14 15:10:22'
