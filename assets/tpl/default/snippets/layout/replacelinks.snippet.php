@@ -17,6 +17,7 @@ foreach ($dom->getElementsByTagName("a") as $a) {
     ) {
         $a->setAttribute("target", "_blank");
         $a->setAttribute("rel", "noreferer");
+        $a->setAttribute("title", "externer Link");
     }
 }
 
