@@ -32,7 +32,7 @@ data:
                           formit.form_encryptkey,
                       ],
               }
-            - { "xtype:!=": text-password }
+            - { "xtype:!=": "text-password" }
         exclude_keys:
             - editedon
     mediasources:
