@@ -24,13 +24,13 @@ data:
         where:
             - { "editedon:!=": "0000-00-00 00:00:00" }
             - {
-                  "key:NOT IN":
-                      [
-                          gitifywatch.gitify_path,
-                          gitify.git_path,
-                          updater.last_send_core_notification,
-                          formit.form_encryptkey,
-                      ],
+                "key:NOT IN":
+                    [
+                        gitifywatch.gitify_path,
+                        gitify.git_path,
+                        updater.last_send_core_notification,
+                        formit.form_encryptkey,
+                    ],
               }
             - { "xtype:!=": "text-password" }
         exclude_keys:
