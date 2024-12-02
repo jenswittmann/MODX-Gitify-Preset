@@ -11,6 +11,7 @@ foreach ($dom->getElementsByTagName("a") as $a) {
         str_replace($modx->getOption("site_url"), "", $a->getAttribute("href"))
     );
     $a->setAttribute("class", "link");
+    $a->removeAttribute("style");
     if (
         substr($a->getAttribute("href"), 0, 4) == "http" ||
         substr($a->getAttribute("href"), -3) == "pdf"
