@@ -1,4 +1,5 @@
 key: versionx.enable.plugins
+value: '0'
 xtype: modx-combo-boolean
 namespace: versionx
 area: Enable

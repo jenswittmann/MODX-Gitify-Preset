@@ -1,4 +1,5 @@
 key: versionx.formtabs.resource
+value: '0'
 xtype: modx-combo-boolean
 namespace: versionx
 area: 'Form Tabs'
