@@ -15,16 +15,16 @@ static_file: /chunks/contentblocks/image.chunk.tpl
             &input=`[[+crops.Zuschnitt.url:default=`[[+url]]`]]`
             &options=`[[+sizes:default=`2500,1250,625`]]`
         ]]
-        alt="[[+alt:jolitypo:htmlent]]"
-        [[+noLazyload:isnt=`1`:then=`
+        alt="{$alt | jolitypo | htmlent}"
+        {if !$noLazyload}
             loading="lazy"
-        `]]
-        class="db [[+classnames:default=`w-100 h-inherit bg-white`]]"
-        [[+attributes]]
+        {/if}
+        class="db {$classnames ?: 'w-100 h-inherit bg-white'}"
+        {$attributes}
     />
-    [[+title:notempty=`
-        <figcaption class="image--caption f1 tr mt3-m o-40">
-            [[+title:jolitypo]]
+    {if $title}
+        <figcaption class="image--caption f1 tc mt3-m">
+            {$title | jolitypo}
         </figcaption>
-    `]]
+    {/if}
 </figure>
