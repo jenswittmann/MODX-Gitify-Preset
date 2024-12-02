@@ -33,6 +33,8 @@ data:
                       ],
               }
             - { "xtype:!=": text-password }
+        exclude_keys:
+            - editedon
     mediasources:
         class: sources.modMediaSource
         primary: id

@@ -1,4 +1,3 @@
 key: login_background_image
-value: '/assets/tpl/default/frontend/styleguide/img/login-bg.webp'
+value: /assets/tpl/default/frontend/styleguide/img/login-bg.webp
 area: authentication
-editedon: '2024-06-14 16:22:56'

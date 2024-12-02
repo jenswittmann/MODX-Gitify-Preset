@@ -2,4 +2,3 @@ key: contentblocks.image.upload_path
 value: 'images/[[+alias]]/[[+year]]/'
 namespace: contentblocks
 area: 'Input: Image'
-editedon: '2024-06-15 21:23:58'
