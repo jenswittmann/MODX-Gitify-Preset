@@ -1,0 +1,4 @@
+key: magicpreview.custom_preview_css
+value: /assets/tpl/default/frontend/styleguide/css/modx.css
+namespace: magicpreview
+area: Preview
