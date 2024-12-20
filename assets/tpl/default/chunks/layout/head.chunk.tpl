@@ -27,6 +27,16 @@
                 content="{$previewimage}"
             />
         {/if}
+        {if $_modx->hasSessionContext('mgr')}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ryersondmp/sa11y@3.2.3/dist/css/sa11y.min.css"/>
+            <script src="https://cdn.jsdelivr.net/combine/gh/ryersondmp/sa11y@3.2.3/dist/js/lang/de.umd.js,gh/ryersondmp/sa11y@3.2.3/dist/js/sa11y.umd.min.js"></script>
+            <script>
+                Sa11y.Lang.addI18n(Sa11yLangDe.strings);
+                const sa11y = new Sa11y.Sa11y({
+                    checkRoot: "body"
+                });
+            </script>
+        {/if}
     </head>
     <body
         x-data="{
