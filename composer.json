@@ -1,0 +1,27 @@
+{
+  "name": "jenswittmann/modx-gitify-preset",
+  "description": "Preset for a clean MODX Installation with Gitify. A good start for CurlyFramework.",
+  "type": "project",
+  "keywords": [
+    "modx",
+    "gitify",
+    "curlyframework"
+  ],
+  "authors": [
+    {
+      "name": "Jens Wittmann",
+      "email": "kontakt@jens-wittmann.de",
+      "homepage": "https://jens-wittmann.de"
+    }
+  ],
+  "homepage": "https://github.com/jenswittmann/MODX-Gitify-Preset",
+  "require": {
+    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+    "modxcms/revolution": "^3.0"
+  },
+  "scripts": {
+    "deploy": [
+      "git pull origin main"
+    ]
+  }
+}
