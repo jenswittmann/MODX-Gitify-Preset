@@ -2,7 +2,7 @@
 # vars
 $name = $modx->getOption( 'n', $scriptProperties );
 $scaleStroke = $modx->getOption( 'scalestroke', $scriptProperties, false );
-$path = $modx->getOption( 'filePath', $scriptProperties, $modx->getOption( 'tplPath' ). 'frontend/styleguide/icon/' );
+$path = $modx->getOption('base_path') . $modx->getOption( 'filePath', $scriptProperties, $modx->getOption( 'tplPath' ). 'frontend/styleguide/icon/' );
 $extension = $modx->getOption( 'extension', $scriptProperties, '.svg' );
 $fullPath = $path . $name . $extension;
 
