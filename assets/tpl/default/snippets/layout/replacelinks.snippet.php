@@ -2,7 +2,7 @@
 if (empty($input)) {
     return;
 }
-    
+
 $dom = new DOMDocument();
 $dom->loadHTML(mb_convert_encoding($input, "HTML-ENTITIES", "UTF-8"));
 foreach ($dom->getElementsByTagName("a") as $a) {
@@ -18,7 +18,7 @@ foreach ($dom->getElementsByTagName("a") as $a) {
     ) {
         $a->setAttribute("target", "_blank");
         $a->setAttribute("rel", "noreferer");
-        $a->setAttribute("title", "externer Link");
+        $a->setAttribute("aria-label", $a->nodeValue . ", externer Link");
     }
 }
 
