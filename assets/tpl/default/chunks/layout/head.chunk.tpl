@@ -9,7 +9,7 @@
         />
         <link rel="stylesheet" href="{$_modx->config.tplPath}frontend/styleguide/css/style.css?v={'getFileHash' | snippet : [ 'f' => $_modx->config.tplPath ~ 'frontend/styleguide/css/style.css' ]}">
         <meta charset="utf-8" />
-        <title>{$_modx->resource.pagetitle | jolitypo} &bull; {$_modx->config.site_name | jolitypo}</title>
+        <title>{$_modx->resource.pagetitle | jolitypo} — {$_modx->config.site_name | jolitypo}</title>
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, viewport-fit=cover"
