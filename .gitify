@@ -35,6 +35,14 @@ data:
             - { "xtype:!=": "text-password" }
         exclude_keys:
             - editedon
+    lexicon_entries:
+        class: modLexiconEntry
+        primary: name
+        where:
+            - { 'name:IN': [] }
+        exclude_keys:
+            - createdon
+            - editedon
     mediasources:
         class: sources.modMediaSource
         primary: id
