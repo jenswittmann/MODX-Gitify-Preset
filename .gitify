@@ -176,6 +176,11 @@ data:
     # user_group_roles:
     #     class: modUserGroupRole
     #     primary: id
+    membergroup_names:
+        class: modUserGroup
+        primary: id
+        where:
+            - { 'id:IN': [2] }
     access_policies:
         class: modAccessPolicy
         primary: id
