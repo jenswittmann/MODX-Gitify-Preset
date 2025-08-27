@@ -1,6 +1,6 @@
 <?php
 # vars
-$name = $modx->getOption( 'n', $scriptProperties );
+$name = $modx->getOption( 'n', $scriptProperties, $input );
 $scaleStroke = $modx->getOption( 'scalestroke', $scriptProperties, false );
 $path = $modx->getOption('base_path') . $modx->getOption( 'filePath', $scriptProperties, $modx->getOption( 'tplPath' ). 'frontend/styleguide/icon/' );
 $extension = $modx->getOption( 'extension', $scriptProperties, '.svg' );
