@@ -22,6 +22,12 @@
   "scripts": {
     "deploy": [
       "git pull origin main"
+    ],
+    "backup": [
+      "~/.config/composer/vendor/modmore/gitify/bin/gitify backup"
+    ],
+    "restore": [
+      "~/.config/composer/vendor/modmore/gitify/bin/gitify restore"
     ]
   }
 }
