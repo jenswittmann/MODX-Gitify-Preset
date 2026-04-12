@@ -193,19 +193,27 @@ data:
             - { "id:IN": [11, 12] }
     # access_category:
     #     class: modAccessCategory
-    #     primary: id
+    #     primary: name
+    #     exclude_keys:
+    #         - id
     # access_policy_templates:
     #     class: modAccessPolicyTemplate
-    #     primary: id
+    #     primary: name
+    #     exclude_keys:
+    #         - id
     # access_policy_template_groups:
     #     class: modAccessPolicyTemplateGroup 
-    #     primary: id
+    #     primary: name
+    #     exclude_keys:
+    #         - id
     # access_resource_groups:
     #     class: modAccessResourceGroup
     #     primary: id
     # access_permissions:
     #     class: modAccessPermission
-    #     primary: id
+    #     primary: name
+    #     exclude_keys:
+    #         - id
     cb_fields:
         class: cbField
         primary:
