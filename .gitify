@@ -291,3 +291,8 @@ data:
     #     class: Sterc\Formalicious\Model\FormaliciousFieldType
     #     namespace: Sterc\Formalicious
     #     model: Sterc\Formalicious\Model
+    # namespaces:
+    #     class: modNamespace
+    #     primary: name
+    #     where:
+    #        - { 'name:IN': [] }
