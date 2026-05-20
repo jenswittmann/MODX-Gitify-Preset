@@ -1,10 +1,10 @@
-id: 3
+id: 2
 parent_properties: null
 input: image_with_title
 name: Bild
 description: ''
 content_desc: ''
-sortorder: 3
+sortorder: 1
 icon: image
 template: '@CHUNK image'
 properties: '{"source":"1","directory":"images\/[[+alias]]\/[[+year]]\/","crop_directory":"crops\/","crops":"Zuschnitt","open_crops_automatically":"false","file_types":"png,jpg,jpeg","thumbnail_size":"0","thumbnail_crop":"","use_tinyrte":"0"}'

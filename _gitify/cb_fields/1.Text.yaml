@@ -1,10 +1,10 @@
-id: 2
+id: 1
 parent_properties: null
 input: redactor
 name: Text
 description: ''
 content_desc: null
-sortorder: 2
+sortorder: 0
 icon: richtext
 template: '@PDO_FILE contentblocks/richtext.chunk.tpl'
 properties: '{"configuration_set":"1"}'
