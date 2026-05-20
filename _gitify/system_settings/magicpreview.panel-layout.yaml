@@ -1,0 +1,5 @@
+key: magicpreview.panel_layout
+value: 'On Page'
+xtype: magicpreview-combo-panel-layout
+namespace: magicpreview
+area: Preview

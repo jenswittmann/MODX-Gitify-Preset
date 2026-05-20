@@ -1,0 +1,5 @@
+key: magicpreview.auto_refresh_interval
+value: '0'
+xtype: numberfield
+namespace: magicpreview
+area: Preview

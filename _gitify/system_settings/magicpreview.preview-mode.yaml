@@ -1,0 +1,5 @@
+key: magicpreview.preview_mode
+value: Panel
+xtype: magicpreview-combo-preview-mode
+namespace: magicpreview
+area: Preview
