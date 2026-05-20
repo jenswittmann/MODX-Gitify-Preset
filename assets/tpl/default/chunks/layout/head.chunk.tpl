@@ -2,11 +2,15 @@
 <html lang="{$_modx->config.cultureKey}" class="scale-content smooth-scroll">
     <head>
         <base href="/" />
-        <link
-            rel="preload"
-            href="{$_modx->config.tplPath}frontend/styleguide/css/font/yellix-medium.woff2"
-            as="font"
-        />
+        <style>
+            @font-face {
+                font-family: "voltaire";
+                font-style: normal;
+                /* font-weight: normal; */ // remove for variable fonts!
+                src: url("https://jens-wittmann.de/voltaire.woff2") format("woff2");
+                font-display: swap;
+            }
+        </style>
         <link rel="stylesheet" href="{$_modx->config.tplPath}frontend/styleguide/css/style.css?v={'getFileHash' | snippet : [ 'f' => $_modx->config.tplPath ~ 'frontend/styleguide/css/style.css' ]}">
         <meta charset="utf-8" />
         <title>{$_modx->resource.pagetitle | jolitypo} — {$_modx->config.site_name | jolitypo}</title>
@@ -36,6 +40,26 @@
                     checkRoot: "body"
                 });
             </script>
+            <style>
+                .modx-edit-button {
+                    position: fixed;
+                    left: 15px;
+                    bottom: 15px;
+                    z-index: 9999;
+                    font-size: .75rem;
+                    font-weight: bold;
+                    padding: 11px 20px;
+                    background-color: #f1f1f1;
+                    border-radius: 4px;
+                    opacity: 0.1;
+                    transition: 0.3s;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            </style>
+            <a href="{$_modx->config.manager_url}?a=resource/update&id={$_modx->resource.id}" class="modx-edit-button">✏️</a>
         {/if}
     </head>
     <body
@@ -55,10 +79,10 @@
             {'!pdoMenu' | snippet : [
                 'startId' => 0,
                 'level' => 1,
-                'tplOuter' => '@INLINE [[+wrapper]]',
+                'tplOuter' => '@INLINE {$wrapper}',
                 'tpl' => '@INLINE
-                    <li class="[[+classnames]]">
-                        <a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>
+                    <li class="{$classnames}">
+                        <a href="{$link}" {$attributes}>{$menutitle}</a>
                     </li>'
             ]}
             
