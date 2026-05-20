@@ -1,4 +1,4 @@
 key: pdotools_elements_path
-value: '{assets_path}tpl/default/chunks/'
+value: "{assets_path}tpl/default/"
 namespace: pdotools
 area: pdotools_main
