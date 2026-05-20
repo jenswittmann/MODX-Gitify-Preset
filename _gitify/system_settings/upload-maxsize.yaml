@@ -1,4 +1,4 @@
 key: upload_maxsize
-value: '33554432'
+value: '200000000'
 xtype: numberfield
 area: file
