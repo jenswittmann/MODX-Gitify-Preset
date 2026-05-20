@@ -19,6 +19,13 @@ foreach ($dom->getElementsByTagName("a") as $a) {
         $a->setAttribute("target", "_blank");
         $a->setAttribute("rel", "noreferer");
         $a->setAttribute("aria-label", $a->nodeValue . ", externer Link");
+        if (substr($a->getAttribute("href"), -3) == "pdf") {
+            $a->setAttribute("aria-label", $a->nodeValue . ", PDF Datei");
+            $a->nodeValue = $a->nodeValue . " (PDF)";
+        } else {
+            $a->setAttribute("aria-label", $a->nodeValue . ", externer Link");
+            $a->nodeValue = $a->nodeValue . " ↗";
+        }
     }
 }
 
