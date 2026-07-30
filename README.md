@@ -38,6 +38,17 @@ cd assets/tpl/default/; git clone git@github.com:jenswittmann/CurlyFramework.git
 
 <sup>1</sup> Be sure that you don't have spaces in the full path to the MODX root, for example `/MAMP/My Project/MODX/ > /MAMP/My-Project/MODX/`. If you don't want use `default` for your template foldername, take a search'n replace inside the `_gitify/` folder with `tpl/default > tpl/my-template-name` and rename the folder `assets/tpl/default`. When search'n replace inside the MediaSource, be careful to replace the string length also `… ;s:19:"assets/tpl/default/" … > … ;s:28:"assets/tpl/my-template-name/" …`.
 
+## Gitify
+
+npm scripts wrapping [Gitify](https://docs.modmore.com/en/Open_Source/Gitify/) are defined in [package.json](https://github.com/jenswittmann/MODX-Gitify-Preset/blob/main/package.json). Run them where the [.gitify](https://github.com/jenswittmann/MODX-Gitify-Preset/blob/main/.gitify) config lives:
+
+```
+npm run modx:upgrade
+```
+```
+npm run package:install
+```
+
 ## Third party documentation
 
 - [MODX](https://docs.modx.com/)
