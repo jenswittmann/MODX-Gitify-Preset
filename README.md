@@ -46,7 +46,7 @@ npm scripts wrapping [Gitify](https://docs.modmore.com/en/Open_Source/Gitify/) a
 npm run modx:upgrade
 ```
 ```
-npm run package:install
+npm run packages:upgrade
 ```
 
 ## Third party documentation
