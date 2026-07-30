@@ -1,0 +1,9 @@
+{
+  "name": "MODX-Gitify-Preset",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "modx:upgrade": "gitify modx:upgrade",
+    "packages:upgrade": "gitify package:install --all -u"
+  }
+}
